@@ -26,6 +26,8 @@
 							type="Emphasized" press="onPressWarehouseScreen" icon="sap-icon://bar-code"/>
 						<Button text="Outbound Shipping" class="sapMBtnContent" iconDensityAware="false" visible="true" enabled="true" width="325px"
 							iconFirst="true" type="Emphasized" press="onPressFGPick" icon="sap-icon://bar-code"/>
+						<Button text="Inventory App" class="sapMBtnContent" iconDensityAware="false" visible="true" enabled="true" width="325px" iconFirst="true"
+							type="Emphasized" press="onInventoryPress" icon="sap-icon://bar-code"/>
 						<Button text="Finished Goods Put Away" class="sapMBtnContent" iconDensityAware="false" visible="true" enabled="true" width="325px"
 							iconFirst="true" type="Emphasized" press="onPressFG" icon="sap-icon://bar-code"/>
 					</VBox>

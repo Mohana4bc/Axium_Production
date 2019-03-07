@@ -73,6 +73,10 @@ sap.ui.define([
 		onPressBinToBin: function () {
 			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
 			oRouter.navTo("BinToBin", {});
+		},
+		onInventoryPress: function (e) {
+			var oRouter = sap.ui.core.UIComponent.getRouterFor(this);
+			oRouter.navTo("InventoryPlntStrloc", {});
 		}
 
 	});

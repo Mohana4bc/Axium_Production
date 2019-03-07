@@ -47,9 +47,9 @@ sap.ui.define([
 			this.setModel(new sap.ui.model.json.JSONModel(), "oScannedQty");
 			this.setModel(new sap.ui.model.json.JSONModel(), "oBinScanModel");
 			this.setModel(new sap.ui.model.json.JSONModel(), "oScanQTModel");
-			
+
 			this.setModel(new sap.ui.model.json.JSONModel(), "batchQty");
-			
+			this.setModel(new sap.ui.model.json.JSONModel(), "InvenHUBin");
 
 		}
 	});
